@@ -1,0 +1,13 @@
+package com.config.configuration;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BmsConfigurationServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BmsConfigurationServiceApplication.class, args);
+	}
+
+}
